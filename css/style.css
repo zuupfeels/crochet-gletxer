@@ -6,6 +6,11 @@ body {
   
 }
 
+h4, h6{
+    text-align: center;
+}
+
+
 .colorcitoCarta{
     background-color: #ffe5f0;
 }
@@ -13,8 +18,12 @@ body {
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
     background-color: #b98aa0 !important;
 }
+
 .nav-link {
     color: #60374b !important;
+}
+.btn-primary{
+    background-color: #60374b !important;
 }
 
 main{ margin: 45px;}
@@ -45,7 +54,8 @@ main{ margin: 45px;}
 }
 
 ul li:hover {background-color: 
-    rgb(201,153,175);}
+    rgb(201,153,175);
+}
 
 a{ color: black;}
 
