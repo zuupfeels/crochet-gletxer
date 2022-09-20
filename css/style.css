@@ -10,10 +10,10 @@ h4, h6{
     text-align: center;
 }
 
-
-.colorcitoCarta{
-    background-color: #ffe5f0;
+.navbar{
+    background-color: #d1a7ba !important;
 }
+
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
     background-color: #b98aa0 !important;

@@ -1,8 +1,18 @@
-@media (max-width: 578.98px) {
+@media (max-width: 576px) {
     body {
-        background-color: #F2C744;
+        background-color: #9b6d82;
         background-position: center;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva';
+    }
+    .menuPrincipal{
+        text-decoration: none;
+        display: block;
+        padding: 10px 20px;
+        border-bottom: 2px solid #b98aa0;
+        max-width: 200px;
+        background: #9b6d82;
+        font-variant: small-caps;
+        text-shadow: 1px 1px black;
     }
 
     h2 {
