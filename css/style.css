@@ -10,6 +10,17 @@ h6 {
     text-align: center;
 }
 
+.btn-group-sm>.btn, .btn-sm{
+    align-items: center !important;
+}
+
+.form-control-sm, .mb-3, .form-floating>label {
+  margin-left: 10px;
+  margin-right: 150px;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
 .navbar>.container,
 .navbar>.container-fluid,
 .navbar>.container-lg,
@@ -178,6 +189,7 @@ blockquote {
 
 header {
     background-color: #b98aa0;
+
 }
 
 
