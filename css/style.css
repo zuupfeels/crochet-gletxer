@@ -1,7 +1,10 @@
 body {
-    background-color: #d1a7ba !important;
+    background-image: url(../multimedia/fondo2.png) !important;
     background-position-x: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-position: center;
+   
+
 
 }
 
@@ -10,8 +13,24 @@ h6 {
     text-align: center;
 }
 
-.btn-group-sm>.btn, .btn-sm{
-    align-items: center !important;
+.contactoPie{
+    padding: 30px;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: start;
+}
+
+.container-slide {
+    background-attachment: fixed;
+    background-image: url(../multimedia/crochetbaner.png);
+    background-position: 0 -200px;
+    background-size: cover;
+    height: 380px;
+    margin-top: 25px;
+    background-position: center;
+    
+    
+    
 }
 
 .form-control-sm, .mb-3, .form-floating>label {
@@ -32,7 +51,7 @@ h6 {
 
 }
 .navbar{
-    background-color: #60374b !important;
+   text-align:left;
 
 }
 
@@ -66,7 +85,7 @@ main {
     width: 80px;
     height: 80x;
     list-style: none;
-    background-color: #9b6d82;
+    
     color: #b98aa0;
     width: 80px;
     height: 20px;
@@ -91,72 +110,14 @@ a {
 }
 
 
-h1,
-h2 {
+h3 {
     background-color: #b98aa0;
     padding: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
-video {
-    margin-top: 40px;
-    margin-right: 60px;
-    margin-bottom: 40px;
-    margin-left: 60px;
-}
 
-
-.redesFlotantes {
-    position: fixed;
-    right: 0;
-    bottom: 50%;
-}
-
-.redesFlotantes img {
-    width: 40px;
-    display: block;
-}
-
-.whatsapp {
-    position: fixed;
-    right: 40px;
-    bottom: 50px;
-}
-
-.whatsapp img {
-    width: 50px;
-    display: block;
-}
-
-.facebook {
-    position: fixed;
-    right: 40px;
-    bottom: 100px;
-
-}
-
-.facebook img {
-    width: 45px;
-    display: block;
-}
-
-.instagram {
-    position: fixed;
-    right: 40px;
-    bottom: 150px;
-}
-
-.instagram img {
-    width: 45px;
-}
-
-.formulario {
-    border-color: lightsalmon;
-    border-style: groove;
-    border-width: 30px;
-    text-align: center;
-}
 
 .sobrenosotros {
     display: flex;
@@ -186,11 +147,6 @@ blockquote {
     padding: 20px;
 }
 
-
-header {
-    background-color: #b98aa0;
-
-}
 
 
 footer {
