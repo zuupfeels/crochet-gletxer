@@ -1,57 +1,42 @@
 @import "variables";
 @import "footer";
 @import "menu";
+@import "responsive";
 
 
-   
-body {
+body, html {
     background-image: url(../multimedia/fondo2.png) !important;
     background-position-x: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Varela Round";
     background-position: center;
 }
-h4,
-h6 {
-    text-align: center;
 
-}
 .contactoPie{
     padding: 30px;
     margin-right: 50px;
     margin-left: 50px;
     text-align: start;
 }
-.container-slide {
-    background-attachment: none;
-    background-image: url(../multimedia/crochetbaner.png);
-    background-position: 0 -200px;
-    background-size: cover;
-    height: 380px;
-    margin-top: 25px;
-    background-position: center;
-}
+
+
 .form-control-sm, .mb-3, .form-floating>label {
     margin-left: 10px;
     margin-right: 150px;
     margin-bottom: 30px;
     align-items: center;
   }
- 
 
-main {
-    margin: 45px;
-}
+  main{
+    background: none;
+    padding: 20px;
+  }
 
-.img {
-    text-align: end;
-}
-
-.margins {
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-
-
+  section{
+    background: none;
+    .btn{
+        align-items: center;
+    }
+  }
 
 
 a {
@@ -64,12 +49,10 @@ a {
 
 
 h1 {
-    background-color: #b98aa0;
+    background-color: #b98aa0; 
     padding: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
-
 
 
 .sobrenosotros {
@@ -80,10 +63,6 @@ h1 {
     align-items: baseline;
     flex-direction: initial;
     align-items: right;
-}
-
-blockquote {
-    text-align: right;
 }
 
 
@@ -135,19 +114,10 @@ height:400px !important;
 .card {
     background-color: #ffe5f0;
 }
-@media only screen and (max-width: 700px){
-   .container-slide{
-    background-attachment: fixed;
-    background-image: url(../multimedia/crochetbaner.png);
-    background-size: cover;
-    background-position: center;
-   }
-   .contactoPie{
-    padding: 30px;
-    margin-right: 25px;
-    margin-left: 25px;
-    text-align: start;
-}
 
+section{
+    text-align: start;
+    padding: 20px;
+    text-decoration: none;
 }
 
